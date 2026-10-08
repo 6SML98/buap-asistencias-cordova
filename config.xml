@@ -1,12 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.apache.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>Hello Cordova</name>
+    <name>Asistencias QR</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Proyecto escolar de asistencia con códigos QR.
     </description>
-    <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
-        Apache Cordova Team
-    </author>
+    <author>Jorge Bañuelos Atonal</author>
     <content src="index.html" />
     <access origin="https://*.googleapis.com" />
     <access origin="https://*.gstatic.com" />

@@ -1,16 +1,13 @@
 {
-  "name": "org.apache.cordova.hellocordova",
-  "displayName": "Hello Cordova",
+  "name": "buap-asistencias-cordova",
+  "displayName": "Asistencias QR",
   "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "Proyecto escolar de asistencia con QR, Cordova y Firebase.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Apache Cordova Team",
+  "author": "Jorge Bañuelos Atonal",
   "license": "Apache-2.0",
   "cordova": {
     "platforms": [

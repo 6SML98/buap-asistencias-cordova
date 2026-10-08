@@ -1,25 +1,21 @@
 # Asistencias · Cordova
 
-Versión móvil del sistema de asistencia escolar con Apache Cordova y Firebase configurable.
+Versión Cordova del sistema de asistencia escolar con registro y escaneo QR. El esqueleto utiliza Apache Cordova; se conservan sus avisos de licencia.
 
-Proyecto académico de BUAP. Proyecto final seleccionado.
+## Requisitos
 
-## Documentación y requisitos
+Node.js compatible con Cordova Android 15, JDK 17, Android SDK 36 y Build Tools 36.0.0.
 
+## Ejecutar
 
+```text
+npm ci
+npx cordova@13.0.0 platform add android@15.0.0
+npx cordova@13.0.0 build android --debug
+```
 
-## Tecnologías y archivos
+Define JAVA_HOME y ANDROID_HOME e instala Gradle. Configura www/firebase-config.js con tu propio proyecto Firebase. El APK aparece en platforms/android/app/build/outputs/apk/debug/.
 
-Extensiones de código: .css, .html, .js, .json, .xml.
+## Verificación del 8 de octubre de 2026
 
-## Ejecución
-
-Proyecto Cordova. Instalar Node.js y la versión compatible de Cordova; desde esta carpeta ejecutar `npm install`, restaurar la plataforma Android y compilar. Las plataformas y dependencias generadas están excluidas.
-
-## Contenido publicado
-
-Se conserva el código y los recursos referenciados. Se excluyen dependencias instaladas, resultados de compilación, configuraciones personales, documentos ajenos al programa y datos locales. Las configuraciones Firebase incluidas son ejemplos que deben reemplazarse por las de un proyecto propio.
-
-## Estado
-
-Archivo académico original. Puede contener operaciones pendientes o dependencias antiguas. No se ha verificado la ejecución de todos los programas.
+Se restauró Android 15.0.0 y se generó el APK debug. Los scripts e instrucciones inline pasaron la comprobación de sintaxis. La compilación empleó una firma local de pruebas que no se publica. No se instaló en un teléfono ni se probaron cámara y datos Firebase.
